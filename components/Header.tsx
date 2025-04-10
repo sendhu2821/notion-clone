@@ -8,6 +8,7 @@ import {
   UserButton,
 } from "@clerk/clerk-react";
 import { useUser } from "@clerk/nextjs";
+import BreadCrumbs from "./BreadCrumbs";
 
 const Header = () => {
   //Hook to Get the current UserData
@@ -23,6 +24,7 @@ const Header = () => {
       )}
 
       {/* Breadcrumbs */}
+      <BreadCrumbs />
 
       <SignedOut>
         <SignInButton />
