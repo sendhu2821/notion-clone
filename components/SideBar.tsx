@@ -114,8 +114,23 @@ const SideBar = () => {
             ))}
           </>
         )}
+        {/* Shared with me */}
+        {groupedData.editor.length > 0 && (
+          <>
+            <h2 className="text-gray-500 font-semibold text-sm">
+              Shared with Me
+            </h2>
+            {groupedData.editor.map((doc) => (
+              <SideBarOptions
+                key={doc.id}
+                id={doc.id}
+                href={`/doc/${doc.id}`}
+              />
+            ))}
+          </>
+        )}
       </div>
-      {/* Shared with me */}
+
       {/* List... */}
     </>
   );
