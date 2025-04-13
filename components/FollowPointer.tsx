@@ -55,10 +55,10 @@ const FollowPointer = ({
         <path
           fill="none"
           stroke="#324561"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-miterlimit="10"
-          stroke-width="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeMiterlimit="10"
+          strokeWidth="2"
           d="M34.131,42.218l-2.734,1.408c-0.982,0.506-2.187,0.12-2.693-0.861l-5.912-11.46l-8.521,9.412"
         ></path>
         <line
@@ -68,10 +68,10 @@ const FollowPointer = ({
           y2="27.82"
           fill="none"
           stroke="#324561"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-miterlimit="10"
-          stroke-width="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeMiterlimit="10"
+          strokeWidth="2"
         ></line>
       </svg>
 

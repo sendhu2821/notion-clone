@@ -30,7 +30,7 @@ const BreadCrumbs = () => {
               <Fragment key={segment}>
                 <BreadcrumbSeparator />
                 <BreadcrumbItem key={segment}>
-                  <BreadcrumbLink href={href}>{segment}</BreadcrumbLink>
+                  <BreadcrumbLink>{segment}</BreadcrumbLink>
                 </BreadcrumbItem>
               </Fragment>
             );
